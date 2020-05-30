@@ -1,0 +1,1 @@
+export type AreEqual<A, B> = [Exclude<A, B> | Exclude<B, A>] extends [never] ? true : false
