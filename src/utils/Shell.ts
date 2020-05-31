@@ -1,0 +1,1 @@
+export type Shell<T> = Promise<[T]>

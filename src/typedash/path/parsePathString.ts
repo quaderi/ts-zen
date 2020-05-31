@@ -18,7 +18,7 @@ const rePropName = RegExp(
   '(?=(?:\\.|\\[\\])(?:\\.|\\[\\]|$))'
   , 'g')
 
-const parsePathString = (pathStr: string): string[] => {
+export const parsePathString = (pathStr: string): string[] => {
   const pathArr = []
   if (pathStr.charCodeAt(0) === charCodeOfDot) {
     pathArr.push('')

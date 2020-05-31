@@ -1,0 +1,1 @@
+export type Unshell<T> = T extends Promise<[infer U]> ? U : never

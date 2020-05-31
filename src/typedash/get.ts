@@ -1,8 +1,6 @@
-import { ReadonlyNonemptyNormalizedPath } from "../utils/ReadonlyNonemptyNormalizedPath";
-import { Mutable } from "../utils/Mutable";
-import { NonemptyPathTuple } from "../utils/NonemptyPath";
-import { _Get } from "../utils/_Get";
-import { _get } from "./_get";
+import { ReadonlyNonemptyNormalizedPath } from '../utils/ReadonlyNonemptyNormalizedPath'
+import { _Get } from '../utils/_Get'
+import { _get } from './_get'
 
 
 /**

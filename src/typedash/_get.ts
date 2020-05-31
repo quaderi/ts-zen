@@ -1,8 +1,8 @@
-import { UnnormalizedPath, normalizePath } from "./path/normalizePath"
-import { Mutable } from "../utils/Mutable"
-import { ReadonlyNonemptyNormalizedPath } from "../utils/ReadonlyNonemptyNormalizedPath"
-import { NonemptyPathTuple } from "../utils/NonemptyPath"
-import { _Get } from "../utils/_Get"
+import { UnnormalizedPath, normalizePath } from './path/normalizePath'
+import { Mutable } from '../utils/Mutable'
+import { ReadonlyNonemptyNormalizedPath } from '../utils/ReadonlyNonemptyNormalizedPath'
+import { NonemptyPathTuple } from '../utils/NonemptyPath'
+import { _Get } from '../utils/_Get'
 
 // TS reimplimentation of lodash.get
 //  this version does not include memoization for the parsing of string paths

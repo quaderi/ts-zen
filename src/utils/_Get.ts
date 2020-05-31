@@ -1,5 +1,5 @@
-import { NonemptyPathTuple } from "./NonemptyPath";
-import { Rest } from "./Rest";
+import { NonemptyPathTuple } from './NonemptyPath'
+import { Rest } from './Rest'
 
 export type _Get<
   Object,
